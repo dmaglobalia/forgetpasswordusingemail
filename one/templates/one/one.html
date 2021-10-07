@@ -11,16 +11,14 @@
   
 <form method="POST">
 {% csrf_token %}
-  <label for="email">Email:</label><br>
-  <input type="email" name="email"><br>
-
-  <label for="msg"> msg:</label><br>
-  <input type="text" id="msg" name="msg" ><br><br>
 
 
-  <input type="submit" value="Submit">
+<center>
+<h1>CODE HERE</h1>
+
   <a href="/logout"> logout </a>
      <a href="{% url 'passwordChangeForm' %}"> change pass </a>
+     </center>
 </form> 
 
 
